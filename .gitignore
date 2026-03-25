@@ -1,0 +1,30 @@
+# Android build artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Build directories
+build/
+app/build/
+.gradle/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing keys
+*.jks
+*.keystore
+debug.keystore
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpeakerEQ</string>
+
+    <!-- MainActivity -->
+    <string name="eq_status_active">EQ aktiv</string>
+    <string name="eq_status_inactive">EQ inaktiv</string>
+    <string name="connected_speaker">Verbundener Lautsprecher</string>
+    <string name="no_speaker_connected">Kein Bluetooth-Lautsprecher verbunden</string>
+    <string name="btn_measure">Messen</string>
+    <string name="btn_profiles">Profile</string>
+    <string name="btn_toggle_eq">EQ Ein/Aus</string>
+    <string name="active_profile">Aktives Profil: %s</string>
+    <string name="no_active_profile">Kein Profil aktiv</string>
+
+    <!-- MeasurementActivity -->
+    <string name="measurement_title">Frequenzgang messen</string>
+    <string name="measurement_instruction">Stellen Sie das Smartphone in ca. 30 cm Entfernung vor den Lautsprecher. Vermeiden Sie Hintergrundgeräusche.</string>
+    <string name="signal_type_sweep">Sine Sweep</string>
+    <string name="signal_type_noise">Pink Noise</string>
+    <string name="level_check_instruction">Lautsprecher einschalten und Lautstärke erhöhen, bis der Balken grün wird.</string>
+    <string name="level_check_ok">Pegel OK – Messung beginnt…</string>
+    <string name="level_check_too_low">Pegel zu niedrig – bitte lauter stellen und erneut versuchen.</string>
+    <string name="btn_start_measurement">Messung starten</string>
+    <string name="btn_stop_measurement">Messung stoppen</string>
+    <string name="btn_apply_correction">Korrektur anwenden</string>
+    <string name="btn_measure_again">Erneut messen</string>
+    <string name="measurement_count_label">Anzahl Messungen:</string>
+    <string name="measuring_progress">Messung läuft… %d%%</string>
+    <string name="measuring_run_start">Messung %1$d/%2$d wird gestartet…</string>
+    <string name="measuring_run_progress">Messung %1$d/%2$d läuft… %3$d%%</string>
+    <string name="measuring_run_pause">Messung %1$d/%2$d abgeschlossen – kurze Pause…</string>
+    <string name="measurement_complete">Messung abgeschlossen</string>
+    <string name="save_profile_for_device">Profil für %s speichern</string>
+    <string name="unknown_speaker">Unbekannter Lautsprecher</string>
+    <string name="measurement_error">Fehler bei der Messung: %s</string>
+    <string name="save_profile_title">Profil speichern</string>
+    <string name="save_profile_hint">Profilname</string>
+
+    <!-- ProfileListActivity -->
+    <string name="profiles_title">Lautsprecher-Profile</string>
+    <string name="no_profiles">Keine Profile vorhanden</string>
+    <string name="profile_created">Erstellt: %s</string>
+    <string name="profile_activated">Profil aktiviert: %s</string>
+    <string name="profile_deleted">Profil gelöscht</string>
+    <string name="confirm_delete">Profil wirklich löschen?</string>
+
+    <!-- EQ Service -->
+    <string name="notification_channel_name">SpeakerEQ Service</string>
+    <string name="notification_title">SpeakerEQ aktiv</string>
+    <string name="notification_text">Frequenzkorrektur läuft für %s</string>
+    <string name="notification_text_no_speaker">Frequenzkorrektur aktiv</string>
+
+    <!-- Graph -->
+    <string name="graph_frequency">Frequenz (Hz)</string>
+    <string name="graph_level">Pegel (dB)</string>
+    <string name="graph_measured">Gemessen</string>
+    <string name="graph_corrected">Korrektur</string>
+
+    <!-- Permissions -->
+    <string name="permission_audio_title">Mikrofonzugriff benötigt</string>
+    <string name="permission_audio_message">SpeakerEQ benötigt Zugriff auf das Mikrofon, um den Frequenzgang des Lautsprechers zu messen.</string>
+    <string name="permission_bluetooth_title">Bluetooth-Zugriff benötigt</string>
+    <string name="permission_bluetooth_message">SpeakerEQ benötigt Bluetooth-Zugriff, um den verbundenen Lautsprecher zu erkennen.</string>
+
+    <!-- Allgemein -->
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+</resources>

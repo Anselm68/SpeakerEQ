@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- EQ bars icon centered in the 108x108 adaptive icon safe zone (center 72x72) -->
+
+    <!-- Bar 1 (leftmost) - short -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,58 L30,50 C30,48.9 30.9,48 32,48 L34,48 C35.1,48 36,48.9 36,50 L36,58 C36,59.1 35.1,60 34,60 L32,60 C30.9,60 30,59.1 30,58 Z" />
+
+    <!-- Bar 2 - medium -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,62 L40,46 C40,44.9 40.9,44 42,44 L44,44 C45.1,44 46,44.9 46,46 L46,62 C46,63.1 45.1,64 44,64 L42,64 C40.9,64 40,63.1 40,62 Z" />
+
+    <!-- Bar 3 (center) - tallest -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,66 L50,42 C50,40.9 50.9,40 52,40 L54,40 C55.1,40 56,40.9 56,42 L56,66 C56,67.1 55.1,68 54,68 L52,68 C50.9,68 50,67.1 50,66 Z" />
+
+    <!-- Bar 4 - medium-tall -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,64 L60,44 C60,42.9 60.9,42 62,42 L64,42 C65.1,42 66,42.9 66,44 L66,64 C66,65.1 65.1,66 64,66 L62,66 C60.9,66 60,65.1 60,64 Z" />
+
+    <!-- Bar 5 (rightmost) - short-medium -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,60 L70,48 C70,46.9 70.9,46 72,46 L74,46 C75.1,46 76,46.9 76,48 L76,60 C76,61.1 75.1,62 74,62 L72,62 C70.9,62 70,61.1 70,60 Z" />
+
+</vector>

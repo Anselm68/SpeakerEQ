@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="accent">#FF6F00</color>
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_surface_secondary">#B0B0B0</color>
+
+    <!-- Graph colors -->
+    <color name="graph_background">#1A1A2E</color>
+    <color name="graph_grid">#333355</color>
+    <color name="graph_measured">#FF4444</color>
+    <color name="graph_corrected">#44FF44</color>
+    <color name="graph_target">#4444FF</color>
+    <color name="graph_text">#AAAACC</color>
+
+    <!-- EQ status -->
+    <color name="eq_active">#4CAF50</color>
+    <color name="eq_inactive">#F44336</color>
+</resources>
